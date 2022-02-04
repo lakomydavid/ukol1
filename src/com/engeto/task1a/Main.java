@@ -1,6 +1,5 @@
 package com.engeto.task1a;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class Main {
@@ -11,7 +10,7 @@ public class Main {
 
         int salesCount = 42; // count of how many times item has been bought
 
-        String headquatersLocation = "New York"; // headquarters location
+        String headQuatersLocation = "New York"; // headQuaters location
 
         double vehicleConsumption = 9.78; // vehicle consumption in l/100 km
 
@@ -24,8 +23,8 @@ public class Main {
 
         String ipAddress = "192.168.1.1"; // IP address
 
-        //System.out.println(clientName+salesCount+headquatersLocation+vehicleConsumption+cableLength+dateOfBirth+vehicleLicencePlate+ipAddress); humus na jeden radek
+        System.out.println(clientName+"\n"+salesCount+"\n"+headQuatersLocation+"\n"+vehicleConsumption+" l/100km"+"\n"+cableLength+" m"+"\n"+dateOfBirth+"\n"+vehicleLicencePlate+"\n"+ipAddress); //humus na jeden radek
 
-        System.out.printf(clientName, salesCount, headquatersLocation, vehicleConsumption,cableLength,dateOfBirth,vehicleLicencePlate, ipAddress);
+        //System.out.printf(clientName, salesCount, headQuatersLocation, vehicleConsumption,cableLength,dateOfBirth,vehicleLicencePlate, ipAddress);
     }
 }
